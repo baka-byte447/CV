@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailto:milansharma2807@gmail.com" method="post" id="your_creds">
+        <fieldset id="Credentials"> <legend style="text-align: center;color: darkviolet; width: 20%;">Your Credentials</legend> 
+            <table style="color: cornsilk;border-color: darkcyan;" border="2px" align="center" id="creds_table">
+            <tr>
+                <th><label for="name">Name</th>
+                <td><input type="text" id="name" placeholder="Your Name" required></td></label>
+            </tr>
+            <tr>
+                <th>UserId</th>
+                <td><input type="text" placeholder="UserId" required></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" placeholder="Password" required></td>
+            </tr>
+            <tr>
+                <th>Mobile No.</th>
+                <td><input type="tel" placeholder="123XXXXXXX" maxlength="10" minlength="10"></td>
+            </tr>
+            <tr>
+                <th>Mail Id</th>
+                <td><input type="email" placeholder="abc@domain.com" required></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female</td>
+            </tr>
+            </table></fieldset><br><br>
+    
+            <fieldset id="Your Preferences"> <legend style="text-align: center;color: darkviolet; width: 20%;">Your Preferences</legend>
+                <table  border="2px" align="center" class="prefs_table">
+                    <tr>
+                        <th>
+                            Streaming Platform
+                        </th>
+                        <td><label for="AM">
+                                <input type="checkbox"name="Platform" id="AM">Apple Music
+                            </label>
+                            <label for="SP">
+                                <input type="checkbox"name="Platform" id="SP">Spotify
+                            </label>
+                            <label for="YT">
+                                <input type="checkbox"name="Platform" id="YT">YT Music
+                            </label>
+                            <label for="SC">
+                                <input type="checkbox"name="Platform" id="SC">Soundcloud
+                            </label>
+                        </td>
+                    </tr>
+                </table><br>
+                <table  border="2px" align="center" class="prefs_table">
+                    <tr>
+                        <th>
+                            what 3 genres you listen to most 
+                        </th>
+                        <td>
+                            <select name="genres" id="genres">
+                                <optgroup id="classic" label="Classic">
+                                <option value="Rock">Rock</option>
+                                <option value="Jazz">Jazz</option>
+                                <option value="Pop">Pop</option>
+                                <option value="Indie">Indie</option>
+                            </optgroup>
+                            <optgroup label="New Gen">
+                                <option value="Hip-hop">Hip-hop</option>
+                                <option value="RnB">RnB</option>
+                                <option value="Electronic">Electronic</option>
+                                <option value="Lofi">Lofi</option>
+                                <option value="Synth">Synth</option>
+                            </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            When were you born
+                        </th>
+                        <td>
+                            <input type="number" placeholder="2000" min="1990" max="2024" step="1">
+                            <input type="date">
+                            <input type="month">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            What is the time now
+                        </th>
+                        <td>
+                            <input type="time">
+                            
+                            
+                        </td>
+                    </tr>
+    
+                </table>
+                <p style="color: violet; text-align: center;">
+                    <button type="submit">Done</button>
+                    <button type="reset">Clear</button>
+                </p>
+                <p><input type="textarea"></p>
+                <p><textarea name="commnt" id="cmt" rows="5" cols="50"></textarea></p>
+            </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    margin:2;
+    padding:0;
+    box-sizing: border-box;
+}
+#milan_pic{
+    border-radius:200px;
+}
+td{
+    padding-left: 20px;
+    
+}
+th{
+    padding-left: 40px;
+    
+}
